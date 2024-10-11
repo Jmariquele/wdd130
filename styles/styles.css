@@ -10,14 +10,40 @@ nav a {
 } 
 
 h1 {
-    color: steelbue;
+    color: #000;
 }
-img{
+main img{
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
+    margin-left: 5px;
 }
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+main{
+    max-width: 840px;
+}
+aside{
+    width: 20em;
+    margin:1em;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #eee;
+    color: #333;
+    font-size: 17px;
+    text-align: center;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align:center;
 }
