@@ -27,6 +27,7 @@ h1 {
 }
 main img{
     width: 150px;
+    border-radius: 75px;
     height: auto;
     float: right;
     border: 1px solid steelblue;
